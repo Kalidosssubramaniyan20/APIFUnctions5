@@ -1,5 +1,6 @@
 package firsttry;
 
+import jdk.internal.org.jline.terminal.TerminalBuilder;
 import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
@@ -21,7 +22,7 @@ public class httprequest {
 	        .body("page",equalTo(2))
 	        .log().all();
 	}
-
+	System.out.Println("This is get request");
 	
 	}
 
