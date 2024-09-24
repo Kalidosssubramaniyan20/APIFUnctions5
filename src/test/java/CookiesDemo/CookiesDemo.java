@@ -5,7 +5,7 @@ import static io.restassured.RestAssured.*;
 import static io.restassured.matcher.RestAssuredMatchers.*;
 import static org.hamcrest.Matchers.*;
 
-import org.openqa.selenium.remote.Response;
+//import org.openqa.selenium.remote.Response;
 import org.testng.annotations.Test;
 
 public class CookiesDemo {
